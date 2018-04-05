@@ -1,0 +1,74 @@
+html{
+		box-sizing:border-box;
+		margin: 0;
+		padding: 0;
+
+	}
+	
+	 *, *:before,*:after { box-sizing: inherit; margin: 0; padding: 0; 
+	}
+	
+	header,footer,h1,h2,h3,h4,div,p,aside,section,main,ol,ul,li{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-size: 100%;
+		border: 0;
+
+	}
+
+	header{
+		margin: .5em 0;
+	}
+
+	body{
+		background: #eee;
+	}
+
+	section{
+		width:60%; 
+		border: 2px solid #111;
+		display: inline-block;
+
+	}
+
+	aside{
+		margin: 0 0 0 10%;
+		width:20%;
+		display: inline-block;
+		
+	}
+
+	form label{
+		display: block;
+		margin: 1em 0 .3em;
+		font-family: 'arial';
+		font-weight: bold;
+
+	}
+
+	form button{
+		display: block;
+		margin: 0.5em 0;
+		padding: .5em 1em;
+		background: #4aa;
+		border: none;
+		color: #fff;
+		font-family: 'arial';
+		font-weight: bold;
+		border-radius: 10%;
+	}
+
+	#buttons li{
+		display: inline-block;
+		padding: 0.5em;
+		background: #4aa;
+		border: none;
+		color: #fff;
+		font-family: "arial";
+		font-weight: bold;
+		margin: 0 .5em;
+		border-radius: 10%;
+
+
+	}

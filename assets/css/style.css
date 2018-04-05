@@ -1,0 +1,177 @@
+	html{
+		box-sizing:border-box;
+		margin: 0;
+		padding: 0;
+
+	}
+	
+	 *, *:before,*:after { box-sizing: inherit; margin: 0; padding: 0; 
+	}
+	
+	header,footer,h1,h2,h3,h4,div,p,aside,section,main,ol,ul,li{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-size: 100%;
+		border: 0;
+
+	}
+
+	body{
+		background: url("../images/ricknmorty.png");
+	}
+
+	main{
+		opacity: .87;
+
+
+
+	}
+
+	main div, main form{
+		background: #fff;
+
+
+	}
+
+	main div.hidden, main form.hidden{
+		display: none;
+
+	}
+	
+
+	main h1{
+		margin: 1em;
+	    padding: 1em;
+	    font-family: "Arial Black", Gadget, sans-serif;
+	    font-size: 24px;
+	    color: #d73;
+	    background: #e6d457;
+	    border: black 2px solid;
+	    border-radius: 25px;
+
+		
+	}
+
+	main p.question{
+		margin: 1.5em;
+	    padding: 1em;
+	    font-size: 20px;
+	    font-weight: bold;
+	    color: #fff;
+	    font-family: "Lucida Console", Monaco, monospace;
+	    background: #3a6;
+	    border-radius: 30px;
+	    display: inline-block;
+
+	}
+
+
+	main #end p{
+		font-size: 27px;
+    	color: #d33;
+    	display: inline-block;
+	    font-family: "Lucida Console", Monaco, monospace;
+	    font-weight: bold;
+	    margin-bottom: 1em;
+	    padding: 1em;
+	    font-weight: bold
+	}
+
+
+	#startbutton{
+		padding: 1em 3em;
+	    font-size: 16px;
+	    background: #d73;
+	    border: 0px none;
+	    border-radius: 25px;
+	    font-family: "Comic Sans MS", cursive, sans-serif;
+	    color: #fff;
+	    font-weight: bold;
+
+	}
+
+	#start{
+	 	width: 55%;
+	 	margin: 0 auto;
+	 	text-align: center;
+	 	background: #3a9;
+	 	color: #fff;
+	 	padding: .5em 0 1.5em;
+	 	border-radius: 50px;
+	 	margin-top: 3em;
+	}
+
+	#start h1{
+		font-size: 200%;
+	}
+
+
+	#game{
+		width: 90%;
+    	margin: 0 auto;
+    	text-align: center;
+    	padding: 1em;
+    	background: #3a9;
+    	border-radius: 25px;
+
+
+	}
+
+	#end{
+		width: 50%;
+    	margin: 0 auto;
+    	text-align: center;
+    	padding: 1em;
+    	background: #2ba296;
+    	margin-top: 5.5em;
+    	border-radius: 50px;
+
+
+	}
+
+	#end label{
+		display: table-row;
+		background: #bee;
+
+
+	}
+
+	#end .results{
+		display: table;
+	    margin: 0 auto;
+	    text-align: right;
+	    padding: 1em;
+	    background: #bee;
+	    color: #d73;
+	    font-weight: bold;
+	    border-radius: 25px;
+	    font-size: 22px;
+	    font-family: "Comic Sans MS", cursive, sans-serif;
+
+		
+	}
+
+	#radio{
+		padding: 1em;
+		display: inline;
+	}
+
+	label.answer{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-weight: bold;
+		font-size: 16px;
+		color: #ca2a2a;
+
+	}
+
+	label.number{
+		padding: 0 1em 0 0;
+	}
+
+	label#time{
+		display: block;
+		font-size: 120%;
+		font-family: "Arial Black", Gadget, sans-serif;
+		color: #ca2a2a;
+	}
